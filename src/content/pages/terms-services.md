@@ -1,7 +1,7 @@
 ---
 title: "Terms of Service"
-meta_title: ""
-description: "this is meta description"
+meta_title: "Terms & Conditions"
+description: "These are the terms & conditions pertaining agreements on Licensing, Sales & Store Information"
 draft: false
 ---
 
@@ -76,7 +76,7 @@ Onlinelightshop offer the use of secure servers where information is protected b
 #### Warranty
 
 - The Seller warrants that the Goods will at the time of dispatch correspond to the description given by the Seller.
-- After 7 Working days from the date of delivery goods will be repaired or replaced dependant upon the nature of the fault.
+- After 30 Working days from the date of delivery goods will be repaired or replaced dependant upon the nature of the fault.
   <br/>
 
 #### Delivery

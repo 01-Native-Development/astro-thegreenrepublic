@@ -1,8 +1,8 @@
 ---
 title: "About Us"
-meta_title: "About"
-description: ""
-image: ""
+meta_title: "About the Green Republic"
+description: "A brief on who we are, what we provide and what we do as The Green Republic Cannabis Apothecary"
+image: "/images/aboutUs.png"
 draft: false
 
 #About Us
@@ -23,41 +23,41 @@ button:
   label: "Contact Us"
   link: "/contact"
 faqs:
-  - title: "Can I customize lamps for client projects?"
+  - title: "Can I send my orders for a 3rd Party?"
     content: "Yes, our platform allows customization for client projects, ensuring unique and tailored solutions. Yes, our platform allows customization for client projects, ensuring unique and tailored solutions."
 
-  - title: "Where are your lamps crafted?"
+  - title: "Wheres our Cannibis Canabalized?"
     content: "Our lamps are meticulously crafted, combining quality materials and skilled workmanship to deliver exceptional products. Our lamps are meticulously crafted, combining quality materials and skilled workmanship to deliver exceptional products."
 
-  - title: "What's included in the 'free updates' policy?"
+  - title: "What's included in the 'discount' policy?"
     content: "Free updates encompass enhancements to lamp designs and features, ensuring your collection stays current and appealing. Free updates encompass enhancements to lamp designs and features, ensuring your collection stays current and appealing"
 
-  - title: "Can I use your lamps for open source projects?"
+  - title: "Can I use your Cannabis to cook?"
     content: "Certainly! Our lamps are open for integration into various projects, fostering creativity and innovation. Certainly! Our lamps are open for integration into various projects, fostering creativity and innovation."
 
-  - title: "Can I retail themes featuring your lamps?"
+  - title: "Can I retail your Products or purchase in bulk?"
     content: "Absolutely! You can sell themes created with our lamps, providing stylish solutions for diverse design needs. Absolutely! You can sell themes created with our lamps, providing stylish solutions for diverse design needs."
 
 # Testimonials
 testimonials_section_enable: true
 testimonials_section_title: "What Our Client Says"
 testimonials:
-  - name: "Ava Sinclair"
+  - name: "Lady Tessa Lehong"
     designation: "Lead Frontend Architect"
     avatar: "/images/avatar-sm.png"
     content: "Astrofront has been a game-changer for our e-commerce setup. This Astro-Shopify boilerplate blends the speed and flexibility of Astro with the powerful e-commerce capabilities of Shopify, giving us the perfect foundation for a high-performance, modern storefront. Setup was smooth, and it’s optimized for seamless integration with Shopify’s API, so we were able to get our site up and running quickly without compromising on customizations or functionality. Astrofront’s clean codebase and scalability make it an ideal solution for any team looking to leverage Astro’s benefits in an e-commerce context. Highly recommended for anyone looking to streamline their Shopify store with the speed of Astro!"
 
-  - name: "Jordan Patel"
+  - name: "Sir Karabo Nhlamulo"
     designation: "E-commerce Solutions Strategist"
     avatar: "/images/avatar-sm.png"
     content: "Astrofront has been a game-changer for our e-commerce setup. This Astro-Shopify boilerplate blends the speed and flexibility of Astro with the powerful e-commerce capabilities of Shopify, giving us the perfect foundation for a high-performance, modern storefront. Setup was smooth, and it’s optimized for seamless integration with Shopify’s API, so we were able to get our site up and running quickly without compromising on customizations or functionality. Astrofront’s clean codebase and scalability make it an ideal solution for any team looking to leverage Astro’s benefits in an e-commerce context. Highly recommended for anyone looking to streamline their Shopify store with the speed of Astro!"
 
-  - name: "Lena Brooks"
+  - name: "Lady Tiisang Sere"
     designation: "Digital Experience Specialist"
     avatar: "/images/avatar-sm.png"
     content: "Astrofront has been a game-changer for our e-commerce setup. This Astro-Shopify boilerplate blends the speed and flexibility of Astro with the powerful e-commerce capabilities of Shopify, giving us the perfect foundation for a high-performance, modern storefront. Setup was smooth, and it’s optimized for seamless integration with Shopify’s API, so we were able to get our site up and running quickly without compromising on customizations or functionality. Astrofront’s clean codebase and scalability make it an ideal solution for any team looking to leverage Astro’s benefits in an e-commerce context. Highly recommended for anyone looking to streamline their Shopify store with the speed of Astro!"
 
-  - name: "Marvin McKinney"
+  - name: "Sir Antonio Zambuko"
     designation: "Web Designer"
     avatar: "/images/avatar-sm.png"
     content: "Astrofront has been a game-changer for our e-commerce setup. This Astro-Shopify boilerplate blends the speed and flexibility of Astro with the powerful e-commerce capabilities of Shopify, giving us the perfect foundation for a high-performance, modern storefront. Setup was smooth, and it’s optimized for seamless integration with Shopify’s API, so we were able to get our site up and running quickly without compromising on customizations or functionality. Astrofront’s clean codebase and scalability make it an ideal solution for any team looking to leverage Astro’s benefits in an e-commerce context. Highly recommended for anyone looking to streamline their Shopify store with the speed of Astro!"
@@ -65,19 +65,19 @@ testimonials:
 # Our Staff
 staff_section_enable: true
 staff:
-  - name: "Marvin McKinney"
+  - name: "Kopano Lehong"
     designation: "Web Designer"
     avatar: "/images/staff/staff.png"
 
-  - name: "Noah Anderson"
+  - name: "Karabo Magongwa"
     designation: "Java Engineer"
     avatar: "/images/staff/staff.png"
 
-  - name: "Olivia Harper"
+  - name: "Tessa Lehong"
     designation: "UI Designer"
     avatar: "/images/staff/staff.png"
 
-  - name: "Benjamin Clarke"
+  - name: "Karabo Seemela"
     designation: "Product Marketer"
     avatar: "/images/staff/staff.png"
 ---

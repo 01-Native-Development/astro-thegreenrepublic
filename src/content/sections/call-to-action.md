@@ -1,9 +1,8 @@
 ---
 enable: true
-title: "Curved Collection for Your
-Bedroom Get 25% Off"
+title: "Recieve 25% Off On your first CBD purchase"
 sub_title: "Deal of the Week"
-image: "/images/call-to-action.png"
+image: "/images/call-to-action.jpg"
 description: "Subscribe our Newsletter and get all latest information and offers"
 button:
   enable: true

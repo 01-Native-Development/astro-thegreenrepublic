@@ -1,7 +1,7 @@
 ---
 title: "Privacy Policy"
-meta_title: ""
-description: "this is meta description"
+meta_title: "Privacy Policy"
+description: "Policy Pending for Public Users."
 draft: false
 ---
 

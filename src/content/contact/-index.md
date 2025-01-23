@@ -1,7 +1,7 @@
 ---
 title: "Connect with Us"
-meta_title: ""
-description: "this is meta description"
+meta_title: "Contact Us"
+description: "Welcome to the Green Republic"
 draft: false
 
 #Contact Options

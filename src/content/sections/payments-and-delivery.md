@@ -13,5 +13,5 @@ payment_methods:
   - name: "Upay"
     image_url: "/images/payment/upay.png"
 
-estimated_delivery: "Est. Delivery between 0 - 3 days"
+estimated_delivery: "Est. Delivery between 3 - 5 days"
 ---
