@@ -31,24 +31,24 @@ const isParentActive = (children: any[]) => {
     "transition-shadow duration-300",
   ]}
 >
-  <nav class="navbar flex-wrap container">
+  <nav class="flex-wrap container navbar">
     <div
-      class="order-1 flex items-center justify-between space-x-7 lg:space-x-14"
+      class="flex justify-between items-center space-x-7 lg:space-x-14 order-1"
     >
       <Logo />
 
-      <div class="relative z-40 hidden md:block">
+      <div class="md:block relative z-40 hidden">
         <label
           for="nav-toggle"
-          class="order-3 cursor-pointer flex items-center text-dark dark:text-white lg:order-1"
+          class="flex items-center order-3 lg:order-1 text-dark dark:text-white cursor-pointer"
         >
-          <span class="mr-2 font-medium">Pages</span>
+          <span class="mr-2 font-medium"> Menu </span>
           <button id="nav-toggle" class="focus:outline-none">
-            <svg class="h-3 fill-current block menu-open" viewBox="0 0 20 20">
+            <svg class="block h-3 fill-current menu-open" viewBox="0 0 20 20">
               <title>Menu Open</title>
               <path d="M0 3h20v2H0V3z m0 6h20v2H0V9z m0 6h20v2H0V0z"></path>
             </svg>
-            <svg class="h-3 fill-current hidden menu-close" viewBox="0 0 20 20">
+            <svg class="hidden h-3 fill-current menu-close" viewBox="0 0 20 20">
               <title>Menu Close</title>
               <polygon
                 points="11 9 22 9 22 11 11 11 11 22 9 22 9 11 -2 11 -2 9 9 9 9 -2 11 -2"
@@ -58,17 +58,17 @@ const isParentActive = (children: any[]) => {
         </label>
 
         <div
-          class="fixed top-0 left-0 h-full bg-black opacity-50 w-full hidden overlay"
+          class="top-0 left-0 fixed hidden bg-black opacity-50 w-full h-full overlay"
         >
         </div>
 
         <div
-          class="fixed top-0 left-0 h-full bg-white dark:bg-darkmode-body overflow-y-auto w-full md:w-96 p-9 sidebar transform -translate-x-full transition-transform"
+          class="top-0 left-0 fixed bg-white dark:bg-darkmode-body p-9 w-full md:w-96 h-full transform transition-transform -translate-x-full overflow-y-auto sidebar"
         >
           <div class="flex justify-between items-center mb-14">
             <Logo />
-            <button class="close-sidebar p-2">
-              <svg class="h-5 fill-current block" viewBox="0 0 20 20">
+            <button class="p-2 close-sidebar">
+              <svg class="block h-5 fill-current" viewBox="0 0 20 20">
                 <title>Menu Close</title>
                 <polygon
                   points="11 9 22 9 22 11 11 11 11 22 9 22 9 11 -2 11 -2 9 9 9 9 -2 11 -2"
@@ -98,7 +98,7 @@ const isParentActive = (children: any[]) => {
                       >
                         {menuItem.name}
                         <svg
-                          class="h-4 w-4 submenu-arrow transition-transform"
+                          class="w-4 h-4 transition-transform submenu-arrow"
                           viewBox="0 0 24 24"
                           fill="none"
                           xmlns="http://www.w3.org/2000/svg"
@@ -113,7 +113,7 @@ const isParentActive = (children: any[]) => {
                         </svg>
                       </button>
 
-                      <ul class="submenu hidden pl-4 mt-2 space-y-2 bg-white dark:bg-dark rounded-md shadow py-4">
+                      <ul class="space-y-2 hidden bg-white dark:bg-dark shadow mt-2 py-4 pl-4 rounded-md submenu">
                         {menuItem.children.map((child) => (
                           <li>
                             <a
@@ -150,7 +150,7 @@ const isParentActive = (children: any[]) => {
 
             {
               navigation_button.enable && (
-                <li class="mt-4 inline-block lg:hidden mr-4 md:mr-6">
+                <li class="inline-block lg:hidden mt-4 mr-4 md:mr-6">
                   <a
                     class="btn btn-outline-primary btn-sm"
                     href={navigation_button.link}
@@ -165,11 +165,11 @@ const isParentActive = (children: any[]) => {
       </div>
     </div>
 
-    <div class="max-lg:mt-4 w-full lg:w-[45%] xl:w-[60%] lg:order-2 order-3">
+    <div class="order-3 lg:order-2 max-lg:mt-4 w-full lg:w-[45%] xl:w-[60%]">
       {settings.search && <SearchBar client:load />}
     </div>
 
-    <div class="order-2 lg:order-3 ml-auto flex items-center lg:ml-0">
+    <div class="flex items-center order-2 lg:order-3 ml-auto lg:ml-0">
       <ThemeSwitcher className="mr-4 md:mr-6" />
       <Cart />
 
@@ -181,18 +181,18 @@ const isParentActive = (children: any[]) => {
         )
       }
 
-      <div class="relative z-40 block md:hidden ml-6">
+      <div class="block relative z-40 md:hidden ml-6">
         {/* Mobile menu toggle button */}
         <label
           for="nav-toggle-mobile"
-          class="cursor-pointer flex items-center text-dark dark:text-white border dark:border-light p-1 rounded-md"
+          class="flex items-center p-1 border dark:border-light rounded-md text-dark dark:text-white cursor-pointer"
         >
           <button id="nav-toggle-mobile" class="focus:outline-none">
-            <svg class="h-5 fill-current block menu-open" viewBox="0 0 20 20">
+            <svg class="block h-5 fill-current menu-open" viewBox="0 0 20 20">
               <title>Menu Open</title>
               <path d="M0 3h20v2H0V3z m0 6h20v2H0V9z m0 6h20v2H0V0z"></path>
             </svg>
-            <svg class="h-5 fill-current hidden menu-close" viewBox="0 0 20 20">
+            <svg class="hidden h-5 fill-current menu-close" viewBox="0 0 20 20">
               <title>Menu Close</title>
               <polygon
                 points="11 9 22 9 22 11 11 11 11 22 9 22 9 11 -2 11 -2 9 9 9 9 -2 11 -2"
@@ -203,17 +203,17 @@ const isParentActive = (children: any[]) => {
 
         {/* Mobile menu sidebar */}
         <div
-          class="fixed top-0 left-0 h-full bg-black opacity-50 w-full hidden overlay"
+          class="top-0 left-0 fixed hidden bg-black opacity-50 w-full h-full overlay"
         >
         </div>
         <div
-          class="fixed top-0 left-0 h-full bg-white dark:bg-darkmode-body overflow-y-auto w-full md:w-96 p-9 sidebar-mobile transform -translate-x-full transition-transform"
+          class="top-0 left-0 fixed bg-white dark:bg-darkmode-body p-9 w-full md:w-96 h-full transform transition-transform -translate-x-full overflow-y-auto sidebar-mobile"
         >
           {/* Same navigation list as desktop but for mobile */}
           <div class="flex justify-between items-center mb-14">
             <Logo />
-            <button class="close-sidebar-mobile p-2">
-              <svg class="h-5 fill-current block" viewBox="0 0 20 20">
+            <button class="p-2 close-sidebar-mobile">
+              <svg class="block h-5 fill-current" viewBox="0 0 20 20">
                 <title>Menu Close</title>
                 <polygon
                   points="11 9 22 9 22 11 11 11 11 22 9 22 9 11 -2 11 -2 9 9 9 9 -2 11 -2"
@@ -243,7 +243,7 @@ const isParentActive = (children: any[]) => {
                       >
                         {menuItem.name}
                         <svg
-                          class="h-4 w-4 submenu-arrow transition-transform"
+                          class="w-4 h-4 transition-transform submenu-arrow"
                           viewBox="0 0 24 24"
                           fill="none"
                           xmlns="http://www.w3.org/2000/svg"
@@ -257,7 +257,7 @@ const isParentActive = (children: any[]) => {
                           />
                         </svg>
                       </button>
-                      <ul class="submenu hidden pl-4 mt-2 space-y-2 bg-white dark:bg-dark rounded-md shadow py-4">
+                      <ul class="space-y-2 hidden bg-white dark:bg-dark shadow mt-2 py-4 pl-4 rounded-md submenu">
                         {menuItem.children.map((child) => (
                           <li>
                             <a
