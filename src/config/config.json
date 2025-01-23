@@ -9,7 +9,7 @@
     "logo_darkmode": "/images/logo-darkmode.png",
     "logo_width": "150",
     "logo_height": "33",
-    "logo_text": "TheGreenRepublic"
+    "logo_text": "The Green Republic"
   },
 
   "settings": {
@@ -32,13 +32,13 @@
   },
 
   "metadata": {
-    "meta_author": "Themefisher",
+    "meta_author": "Sir Karabo ",
     "meta_image": "/images/og-image.png",
-    "meta_description": "Shopify + Astro Storefront Boilerplate"
+    "meta_description": "Your number 1 online Cannibis Apothecary"
   },
 
   "shopify": {
-    "currencySymbol": "৳",
+    "currencySymbol": "R",
     "currencyCode": "BDT",
     "collections": {
       "hero_slider": "hidden-homepage-carousel",

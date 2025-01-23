@@ -1,7 +1,14 @@
+
 @use "sass:meta";
+// Use modern @use instead of @import for Swiper styles
+@use "swiper/css";
+@use "swiper/css/navigation";
+@use "swiper/css/pagination";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 
 @layer base {
   @include meta.load-css("base");
@@ -21,7 +28,7 @@
   @apply rounded-md;
 }
 
-/* change input autofield color */
+/* Change input autofill color */
 input:-webkit-autofill,
 input:-webkit-autofill:hover,
 input:-webkit-autofill:focus,
@@ -36,7 +43,8 @@ input:-webkit-autofill:active {
   -webkit-box-shadow: 0 0 0 30px rgba(0, 0, 0, 0.9) inset !important;
 }
 
-/*Change text in autofill textbox*/
+/* Change text in autofill textbox */
 .dark input:-webkit-autofill {
-  -webkit-text-fill-color: #ddd !important;
+  -webkit-box-shadow: 0 0 0 30px rgba(0, 0, 0, 0.9) inset !important;
+  background-color: rgba(0, 0, 0, 0.9) !important;
 }

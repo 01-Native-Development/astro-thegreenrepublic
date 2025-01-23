@@ -5,11 +5,11 @@
       "url": "/"
     },
     {
-      "name": "Products",
+      "name": "Shop",
       "url": "/products"
     },
     {
-      "name": "Pages",
+      "name": "Info",
       "url": "",
       "hasChildren": true,
       "children": [
@@ -38,7 +38,7 @@
       "url": "/about"
     },
     {
-      "name": "Products",
+      "name": "Shop",
       "url": "/products"
     },
     {
