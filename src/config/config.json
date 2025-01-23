@@ -1,7 +1,7 @@
 {
   "site": {
-    "title": "Astrofront",
-    "base_url": "https://astrofront.vercel.app/",
+    "title": "TheGreenRepublic",
+    "base_url": "https://localhost:4321",
     "base_path": "/",
     "trailing_slash": false,
     "favicon": "/images/favicon.png",
@@ -9,7 +9,7 @@
     "logo_darkmode": "/images/logo-darkmode.png",
     "logo_width": "150",
     "logo_height": "33",
-    "logo_text": "Astrofront"
+    "logo_text": "TheGreenRepublic"
   },
 
   "settings": {
@@ -22,19 +22,19 @@
 
   "params": {
     "contact_form_action": "#",
-    "copyright": "Designed And Developed by [Themefisher](https://themefisher.com/)"
+    "copyright": "Designed And Developed by Sir-Karabo"
   },
 
   "navigation_button": {
     "enable": true,
     "label": "Get Started",
-    "link": "https://github.com/themefisher/astrofront"
+    "link": "https://github.com/01-Native-Development/astro-thegreenrepublic"
   },
 
   "metadata": {
     "meta_author": "Themefisher",
     "meta_image": "/images/og-image.png",
-    "meta_description": "Shopify Storefront Boilerplate"
+    "meta_description": "Shopify + Astro Storefront Boilerplate"
   },
 
   "shopify": {
