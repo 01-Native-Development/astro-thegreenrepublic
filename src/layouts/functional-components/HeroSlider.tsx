@@ -4,10 +4,10 @@ import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
-
 const HeroSlider = ({ products }: { products: Product[] }) => {
   return (
     <>
+      {" "}
       <Swiper
         pagination={{
           clickable: true,
@@ -16,33 +16,42 @@ const HeroSlider = ({ products }: { products: Product[] }) => {
         }}
         modules={[Pagination]}
       >
+        {" "}
         {products?.map((item: Product) => (
           <SwiperSlide key={item.id}>
-            <div className="row items-center px-7 xl:px-16">
-              <div className="sm:col-12 lg:col-6 order-2 lg:order-0">
-                <div className="text-center py-10 lg:py-0">
+            {" "}
+            <div className="items-center px-7 xl:px-16 row">
+              {" "}
+              <div className="order-2 lg:order-0 sm:col-12 lg:col-6">
+                {" "}
+                <div className="py-10 lg:py-0 text-center">
+                  {" "}
                   {item?.description && (
-                    <p className="mb-2 lg:mb-3 text-light dark:text-darkmode-light font-medium md:text-xl">
-                      {item.description}
+                    <p className="mb-2 lg:mb-3 font-medium text-light md:text-xl dark:text-darkmode-light">
+                      {" "}
+                      {item.description}{" "}
                     </p>
-                  )}
+                  )}{" "}
                   <div className="row">
-                    <h1 className="mb-4 lg:mb-10 col-10 sm:col-8 lg:col-12 mx-auto">
-                      {item.title}
-                    </h1>
-                  </div>
+                    {" "}
+                    <h1 className="mx-auto mb-4 lg:mb-10 col-10 sm:col-8 lg:col-12">
+                      {" "}
+                      {item.title}{" "}
+                    </h1>{" "}
+                  </div>{" "}
                   {item.handle && (
                     <a
-                      className="btn btn-sm md:btn-lg btn-primary font-medium"
+                      className="font-medium btn btn-primary btn-sm md:btn-lg"
                       href={`products/${item.handle}`}
                     >
-                      Shop Now
+                      {" "}
+                      Shop Now{" "}
                     </a>
-                  )}
-                </div>
-              </div>
-
+                  )}{" "}
+                </div>{" "}
+              </div>{" "}
               <div className="sm:col-12 lg:col-6">
+                {" "}
                 {item.featuredImage && (
                   <img
                     src={item.featuredImage.url}
@@ -51,14 +60,13 @@ const HeroSlider = ({ products }: { products: Product[] }) => {
                     height={"385"}
                     alt="banner image"
                   />
-                )}
-              </div>
-            </div>
+                )}{" "}
+              </div>{" "}
+            </div>{" "}
           </SwiperSlide>
-        ))}
-      </Swiper>
+        ))}{" "}
+      </Swiper>{" "}
     </>
   );
 };
-
 export default HeroSlider;
