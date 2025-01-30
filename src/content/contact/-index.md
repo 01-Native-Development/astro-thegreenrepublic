@@ -4,17 +4,17 @@ meta_title: "Contact Us"
 description: "Welcome to the Green Republic"
 draft: false
 
-#Contact Options
+# Contact Options
 contact_meta:
   - name: "Address"
-    contact: "123 Main Street, Anytown, </br> CA 12335 - USA"
+    contact: "Fountain Grove Block 5 </br> 5 2nd Rd, Hyde Park, </br> South Africa"
 
   - name: "Email"
-    contact: "yourmail@domain.com </br> support@domain.com"
+    contact: "greenrepublic.com </br> support@domain.com"
 
   - name: "Phone"
-    contact: "Mobile: (08) 123 456 789 </br> Hotline: 1009 678 456"
+    contact: "Mobile: +27 81 306 9708 </br> Phone: +27 87 150 4628"
 
   - name: "Shop Time"
-    contact: "Available at 10am-8pm </br>"
+    contact: "Monday - Friday </br> 9:00 am - 5:00 pm </br>"
 ---

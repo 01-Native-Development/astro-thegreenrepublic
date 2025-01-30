@@ -8,11 +8,11 @@ draft: false
 #About Us
 about_us:
   - title: "Our Company"
-    image: "/images/aboutUs.png"
+    image: "/images/call-to-action.jpg"
     content: "Welcome to **The Green Republic**, where nature’s finest meets modern wellness innovation. As your premier online cannabis apothecary, we specialize in delivering a thoughtfully curated selection of cannabis products crafted to enhance your lifestyle. Our mission is simple: to harness the therapeutic potential of cannabis and make it accessible to everyone seeking balance, health, and happiness.<br/><br/> At **The Green Republic**, we prioritize quality, sustainability, and education. Each product we offer is a testament to our commitment to excellence, sourced from trusted growers who share our passion for purity and innovation. Whether you're seeking relaxation, pain relief, or a little inspiration, our apothecary offers something unique for everyone. Let us guide you on your journey to a brighter, healthier you—one exceptional cannabis product at a time."
 
   - title: "Who We Are ?"
-    image: "/images/aboutUs.png"
+    image: "/images/banner.png"
     content: "At **The Green Republic**, we are more than just a cannabis provider; we are a community of enthusiasts, advocates, and wellness seekers dedicated to redefining how people perceive and experience cannabis. Founded with a vision to destigmatize cannabis and celebrate its countless benefits, we’ve created a platform where science meets nature, offering products that transform lives.<br/><br/> Our approach is holistic, combining knowledge with compassion to help you find the perfect solutions tailored to your needs. From CBD oils and THC edibles to flower strains and wellness products, we ensure that everything we offer meets the highest standards of safety and effectiveness. Our team is here to empower and educate you, creating a trusted space where you can confidently explore cannabis. At **The Green Republic**, wellness isn’t just a goal—it’s a way of life."
 
 # Frequently Asked Questions
@@ -86,4 +86,4 @@ staff:
     description: "Karabo's creative approach to marketing ensures that The Green Republic’s story and values resonate with every customer."
 ---
 
-e created The Green Republic not just as a business, but as a movement to destigmatize cannabis and educate communities about its benefits. By blending ancient natural remedies with modern science, we’ve curated an apothecary designed to enhance your wellness journey. Because when health thrives, so does happiness.
+The created The Green Republic not just as a business, but as a movement to destigmatize cannabis and educate communities about its benefits. By blending ancient natural remedies with modern science, we’ve curated an apothecary designed to enhance your wellness journey. Because when health thrives, so does happiness.
